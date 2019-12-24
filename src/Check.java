@@ -27,7 +27,6 @@ public class Check {
         {
             if((count.charAt(i)>='a'&&count.charAt(i)<='z'||count.charAt(i)>='A'&&count.charAt(i)<='Z'||count.charAt(i)>='0'&&count.charAt(i)<='9'))
                 return false;
-
         }
         return true;
     }
